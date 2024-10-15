@@ -17,4 +17,4 @@ function userMiddleware(req, res, next) {
   });
 }
 
-export { userMiddleware };
+export default userMiddleware;

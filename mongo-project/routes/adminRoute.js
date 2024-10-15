@@ -1,7 +1,6 @@
 import express from "express";
 import { adminMiddleware } from "../middleware/adminMiddleware.js";
-import { Admin } from "../db/DBindex.js";
-import { Course } from "../db/DBindex.js";
+import { Admin, Course } from "../db/DBindex.js";
 const routerA = express.Router();
 
 routerA.post("/signup", (req, res) => {
